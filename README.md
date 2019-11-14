@@ -1,5 +1,13 @@
-# step
-for vision testing
+# Step Azure Kinect Demo
+Created by: Amon Millner, Richard Gao, Hwei-Shin Harriman for Vision.  
+Features implemented:  
+* Stick figure dummy bodies, 1 per person
+* Stomp detection
+* Clap detection
+* Emotion classification using Azure Kinect
+* Sound FX capabilities, can be played upon registering a stomp or a clap
+* Visual representation of emotion (classification affects background color)
+
 ## Installation Instructions
 (Assumes Windows OS and Azure Kinect SDK has been set up according to the [Azure Kinect Documentation](https://docs.microsoft.com/en-us/azure/kinect-dk/set-up-azure-kinect-dk).)  
 Instructions modified from [this](https://github.com/prisonerjohn/ofxAzureKinect) Open Frameworks example repository.
