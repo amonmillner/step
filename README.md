@@ -16,7 +16,8 @@ Features implemented:
 * Install the Open Frameworks Kinect addon according to [this](https://github.com/prisonerjohn/ofxAzureKinect) Github repository.
 * Make sure to copy the cuDNN model file `dnn_model_2_0.onnx` from the Body SDK `tools` folder into your project's `bin` folder!
 * Clone this repository into the `apps/myApps` folder within Open Frameworks.
-* Install the [cpprestsdk](https://github.com/microsoft/cpprestsdk). This can be done easily with the NuGet Package manager.
+* Install the [cpprestsdk](https://github.com/microsoft/cpprestsdk) for the Step project. This can be done easily with the NuGet Package manager.
 * Install OpenCV for C++ and link it with Visual Studio. [This](https://www.deciphertechnic.com/install-opencv-with-visual-studio/) is a helpful tutorial.
 * Copy the content of this repo's ofxAzureKinect folder into the src folder of the ofxAzureKinect addon. This should be in `openFrameworks/addons/ofxAzureKinect/src` by default.
+* Add your own Azure Cognitive Services Face API route and key into a file called `secrets.txt` at the following path: `Step/bin/data/keys`
 * You can then open the `.sln` file in Visual Studio and build. 
