@@ -18,4 +18,5 @@ Features implemented:
 * Clone this repository into the `apps/myApps` folder within Open Frameworks.
 * Install the [cpprestsdk](https://github.com/microsoft/cpprestsdk). This can be done easily with the NuGet Package manager.
 * Install OpenCV for C++ and link it with Visual Studio. [This](https://www.deciphertechnic.com/install-opencv-with-visual-studio/) is a helpful tutorial.
+* Copy the content of this repo's ofxAzureKinect folder into the src folder of the ofxAzureKinect addon. This should be in `openFrameworks\addons\ofxAzureKinect\src` by default.
 * You can then open the `.sln` file in Visual Studio and build. 
