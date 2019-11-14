@@ -4,7 +4,7 @@ Features implemented:
 * Stick figure dummy bodies, 1 per person
 * Stomp detection
 * Clap detection
-* Emotion classification using Azure Kinect
+* Emotion classification using Azure Kinect and Azure Cognitive Services
 * Sound FX capabilities, can be played upon registering a stomp or a clap
 * Visual representation of emotion (classification affects background color)
 
@@ -15,6 +15,7 @@ Features implemented:
 * Install the [Azure Kinect Body Tracking SDK](https://docs.microsoft.com/en-us/azure/Kinect-dk/body-sdk-download).
 * Install the Open Frameworks Kinect addon according to [this](https://github.com/prisonerjohn/ofxAzureKinect) Github repository.
 * Make sure to copy the cuDNN model file `dnn_model_2_0.onnx` from the Body SDK `tools` folder into your project's `bin` folder!
-* Clone this repository into the `addons/ofxAzureKinect` folder within Open Frameworks.
-* TODO instructions for Azure Kinect Setup.
+* Clone this repository into the `apps/myApps` folder within Open Frameworks.
+* Install the [cpprestsdk](https://github.com/microsoft/cpprestsdk). This can be done easily with the NuGet Package manager.
+* Install OpenCV for C++ and link it with Visual Studio. [This](https://www.deciphertechnic.com/install-opencv-with-visual-studio/) is a helpful tutorial.
 * You can then open the `.sln` file in Visual Studio and build. 
