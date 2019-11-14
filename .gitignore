@@ -1,0 +1,20 @@
+# Don't track content of these folders
+Step/packages/
+
+Step/obj/
+Step/bin/data/keys/
+
+.vs/
+
+# Don't track these files
+Step/bin/dnn_model_2_0.onnx
+Step/bin/cpprest141_2_10d.dll
+Step/bin/fmodex64.dll
+Step/bin/fmodexL64.dll
+Step/bin/FreeImage.dll
+Step/bin/Step_debug.exe
+Step/bin/Step_debug.exp
+Step/bin/Step_debug.ilk
+Step/bin/Step_debug.lib
+Step/bin/Step_debug.pdb
+Step/packages.config
